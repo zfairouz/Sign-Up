@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forget Password</title>
+    <title>Sign in</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -28,21 +28,28 @@
     <main class="font-pop">
         <div class="flex h-screen">
             <div class="w-1/2 bg-wlight h-full">
-                <div class="flex items-center gap-[11px] ml-[58px] mt-[40px]">
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path opacity="0.4" d="M7.11396 5.37842L21.2052 0.676134C27.5322 -1.43286 30.9691 2.01964 28.8757 8.34664L24.1734 22.4379C21.0177 31.9205 15.8312 31.9205 12.6755 22.4379L11.2851 18.2511L7.09834 16.8607C-2.36872 13.7207 -2.36872 8.54973 7.11396 5.37842Z" fill="#20DC49"/>
-                        <path d="M14.9404 14.2362L20.8925 8.26855L14.9404 14.2362Z" fill="#20DC49"/>
-                        <path d="M14.9407 15.4079C14.6439 15.4079 14.3471 15.2986 14.1127 15.0642C13.6597 14.6112 13.6597 13.8613 14.1127 13.4083L20.0492 7.44058C20.5022 6.98754 21.2521 6.98754 21.7051 7.44058C22.1582 7.89363 22.1582 8.64349 21.7051 9.09654L15.7687 15.0642C15.5344 15.2829 15.2375 15.4079 14.9407 15.4079Z" fill="#20DC49"/>
-                        </svg>
-                    <h2 class="font-medium text-4 ">Logo here</h2>
+                <div class="flex justify-between">
+                    <div class="flex items-center gap-[11px] ml-[58px] mt-[40px]">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M7.11396 5.37842L21.2052 0.676134C27.5322 -1.43286 30.9691 2.01964 28.8757 8.34664L24.1734 22.4379C21.0177 31.9205 15.8312 31.9205 12.6755 22.4379L11.2851 18.2511L7.09834 16.8607C-2.36872 13.7207 -2.36872 8.54973 7.11396 5.37842Z" fill="#20DC49"/>
+                            <path d="M14.9404 14.2362L20.8925 8.26855L14.9404 14.2362Z" fill="#20DC49"/>
+                            <path d="M14.9407 15.4079C14.6439 15.4079 14.3471 15.2986 14.1127 15.0642C13.6597 14.6112 13.6597 13.8613 14.1127 13.4083L20.0492 7.44058C20.5022 6.98754 21.2521 6.98754 21.7051 7.44058C22.1582 7.89363 22.1582 8.64349 21.7051 9.09654L15.7687 15.0642C15.5344 15.2829 15.2375 15.4079 14.9407 15.4079Z" fill="#20DC49"/>
+                            </svg>
+                        <h2 class="font-medium text-4 ">Logo here</h2>
+                    </div>
+                    <div class="pt-[48px] pr-[45px] justify-items-end ">
+                        <p class="font-light text-[14px]">have an account? <a href="#" class="text-Green font-medium"> Sign in!</a></p>
+                   </div>
                 </div>
-                <div class="justify-items-center mt-[150px]">
-                    <h2 class="font-semibold text-[36px]">Forget Password</h2>
-                    <form action="" class=" w-[400px] mt-[84px]">
-                        <div>
+                <div class="justify-items-center mt-[100px]">
+                    <h2 class="font-semibold text-[36px]">Welcome Back</h2>
+                    <p class="mt-[6px] text-[18px]">Login into your account</p>
+                    <form action="" class=" w-[400px] mt-[52px]">
+                        <div class="space-y-[38px]">
                             <input type="email" placeholder="Email" class=" w-full border-solid border-2 border-[#D9D9D9] rounded-[10px] placeholder:text-[#5A5A5A] pl-[24px] pt-[25px] pb-[30px]">
+                            <input type="text" placeholder="Password" class=" w-full border-solid border-2 border-[#D9D9D9] rounded-[10px] placeholder:text-[#5A5A5A] pl-[24px] pt-[25px] pb-[30px]">
                         </div>
-                        <button class="text-[#5A5A5A] border-solid border-2 border-[#D9D9D9] mt-[62px] w-full rounded-[10px] text-[14px] py-[23px]">Log In</button>
+                        <button class="border-solid border-2 border-[#D9D9D9] w-full rounded-[10px] text-[14px] py-[23px] text-[#5A5A5A] mt-[50px]">Log In</button>
                     </form>
                 </div>
                 
